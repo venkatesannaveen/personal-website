@@ -1,2 +1,6 @@
 # Mac Files
 .DS_STORE
+
+# Hugo build files
+/resources/*
+.hugo_build.lock
