@@ -31,6 +31,13 @@
 
 .fancy {
   color: $primary;
+  animation: fade-in-out 1s infinite
+}
+
+@keyframes fade-in-out {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opcaity: 1;}
 }
 
 .handle {
