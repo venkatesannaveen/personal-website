@@ -24,7 +24,7 @@ copyright = "© 2022"
   github = "https://github.com/venkatesannaveen"
   email = "mailto:naveen.venkatesan@gmail.com"
   linkedin = "https://www.linkedin.com/in/naveenvenkatesan/"
-  
+
   # mastodon = "https://mastodon.social/@nickname"
   # facebook = "https://facebook.com/<your handle>"
   # gitlab = "https://gitlab.com/<your handle>"
@@ -57,10 +57,21 @@ copyright = "© 2022"
 
 # Controls the navigation
 [[menu.main]]
+  identifier = "home"
+  name = "home"
+  url = "/"
+
+[[menu.main]]
   identifier = "about"
   name = "about"
   title = "About"
   url = "/about"
+
+[[menu.main]]
+  identifier = "resume"
+  name = "resume"
+  title = "Resume"
+  url = "/resume"
 
 [[menu.main]]
   identifier = "blog"
